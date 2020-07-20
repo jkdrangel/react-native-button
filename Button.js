@@ -4,11 +4,11 @@ import {
   Platform,
   StyleSheet,
   Text,
-  TouchableOpacity,
-  TouchableNativeFeedback,
   View,
   ViewPropTypes
 } from 'react-native';
+
+import { TouchableOpacity, TouchableNativeFeedback } from 'react-native-gesture-handler';
 
 import coalesceNonElementChildren from './coalesceNonElementChildren';
 
